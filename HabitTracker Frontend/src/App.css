@@ -1,0 +1,27 @@
+.app-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/003/316/767/large_2x/habit-tracker-with-autumn-landscape-background-in-flat-design-free-vector.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: blur(8px);
+  z-index: -1;
+}
+
+.content-wrapper {
+  position: relative;
+  min-height: 100vh;
+  padding: 2rem 0;
+}
+
+.glass-container {
+  background: rgba(255, 255, 255, 0.9) !important;
+  backdrop-filter: blur(4px);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin-top: 2rem;
+}
