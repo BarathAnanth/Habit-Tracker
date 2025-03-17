@@ -1,7 +1,7 @@
 import { Container, Typography, Button, Box } from '@mui/material';
 import AddHabitForm from './AddHabitForm';
-import HabitList from './habitList';
-import HabitStats from './habitStats';
+import HabitList from './HabitList';
+import HabitStats from './HabitStats';
 import { useDispatch } from 'react-redux';
 import { logout } from '../store/authSlice';
 
